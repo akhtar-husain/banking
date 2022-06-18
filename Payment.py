@@ -1,9 +1,9 @@
 """
 Payment processing class.
 """
-class Payment:
-    def pay(self, processor):
-        return processor.pay()
 
-    def refund(self, processor):
-        return processor.refund()
+def refund(processor):
+    return processor.refund()
+
+def pay(processor):
+    return processor.pay()
