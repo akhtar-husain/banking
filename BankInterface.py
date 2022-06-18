@@ -1,5 +1,5 @@
 """
-Parent class for all banks.
+Parent class/Interface for all banks.
 """
 import abc
 class Bank(metaclass=abc.ABCMeta):
